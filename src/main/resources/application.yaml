@@ -8,3 +8,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+  
+google:
+  sheets:
+    spreadsheet-id: TWOJ_SPREADSHEET_ID
+    credentials-path: classpath:credentials/service-account.json
+    application-name: workout-progress-tracker
