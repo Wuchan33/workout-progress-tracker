@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: workout-progress-tracker
+  datasource:
+    url: jdbc:postgresql://localhost:5432/workout_progress_tracker
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
